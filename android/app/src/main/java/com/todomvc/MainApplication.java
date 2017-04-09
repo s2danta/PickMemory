@@ -1,4 +1,4 @@
-package com.reactnativerouterfluxdemo;
+package com.todomvc;
 
 import android.app.Application;
 

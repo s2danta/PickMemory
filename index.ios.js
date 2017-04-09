@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-export default class ReactNativeRouterFluxDemo extends Component {
+export default class TodoMVC extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('ReactNativeRouterFluxDemo', () => ReactNativeRouterFluxDemo);
+AppRegistry.registerComponent('TodoMVC', () => TodoMVC);

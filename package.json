@@ -1,18 +1,24 @@
 {
-  "name": "ReactNativeRouterFluxDemo",
+  "name": "TodoMVC",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "eject-native-base": "node node_modules/native-base/ejectTheme.js"
   },
   "dependencies": {
-   "react": "15.4.2",
+    "react": "15.4.2",
     "react-native": "^0.42.0",
-    "react-native-router-flux": "^3.37.0"
+    "react-native-material-design": "^0.3.7",
+    "react-native-router-flux": "^3.37.0",
+    "react-redux": "5.0.3",
+    "redux": "3.6.0",
+    "redux-logger": "^3.0.1",
+    "redux-thunk": "2.2.0"
   },
   "devDependencies": {
-   "babel-core": "^6.17.0",
+    "babel-core": "^6.17.0",
     "babel-eslint": "^7.1.1",
     "babel-jest": "19.0.0",
     "babel-preset-es2015": "^6.18.0",
