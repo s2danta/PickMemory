@@ -1,10 +1,10 @@
 import React, { Component, PropTypes } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Dimensions } from 'react-native';
 import { connect } from 'react-redux';
 import { Actions } from 'react-native-router-flux';
 import { Button, Subheader } from 'react-native-material-design';
 import TextField from 'react-native-md-textinput';
-
+var width = Dimensions.get('window').width; //full width
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -23,7 +23,10 @@ const styles = StyleSheet.create({
         marginBottom: 5,
     },
     textbox: {
-        width: 500
+        width: width,
+        margin: 5,
+        paddingLeft: 20,
+        paddingRight: 20
     },
     btnLogin: {
         width: 200,
